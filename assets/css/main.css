@@ -596,7 +596,9 @@ nav .container {
   background: #000;
   margin-top: 4px;
 }
-
+.pb-0{
+  margin-bottom: 100px;
+}
 .bg-nav {
   position: fixed;
   top: 0;
@@ -814,6 +816,7 @@ a {
 
 =====================================================*/
 .scrolls {
+  margin-top: 150px;
   z-index: 10;
   position: absolute;
   top: calc(90vh - 50px);
@@ -1045,25 +1048,26 @@ h1.title {
 
 =====================================================*/
 .bg-about {
-  background: url("../img/about-1.jpg") center no-repeat;
+  background: url("../img/anhthu.png") center no-repeat;
   z-index: 3;
-  position: fixed;
+  position: relative;
   text-align: center;
   left: 50%;
   height: 30vh;
-  width: 40vw;
-  top: 20vh;
+  width: 30vw;
+  top: 30vh;
+  padding-bottom: 1200px;
 }
 
 .bg-about-2 {
-  background: url("../img/about-2.jpg") center no-repeat;
-  z-index: 3;
+  background: url("../img/anhthu.png") center no-repeat;
+  z-index: 1;
   position: fixed;
-  text-align: center;
+  text-align: top;
   left: 10vw;
-  height: 50vh;
+  height: 70vh;
   width: 30vw;
-  top: 30vh;
+  top: 10vh;
 }
 
 #img-about {
