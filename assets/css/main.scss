@@ -910,7 +910,16 @@ a {
         position: relative;
 
     }
-
+}
+.main-head-2 {
+    position: relative;
+    height: 75vh;
+    overflow: hidden;
+    z-index: -1;
+    background: #fff;
+    .container {
+        position: relative;
+    }
 }
 
 
