@@ -1348,7 +1348,29 @@ h1.title {
 }
 
 .bg-detail-blog {
-    background: url('../img/blog/detail.jpg') center no-repeat;
+    background: url('../img/blog/Greenvi\ -\ Vũ\ Thu\ Hiền.png') center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+}
+.bg-detail-blog-2 {
+    background: url('../img/blog/bgaw2.jpg') center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+}
+.bg-detail-blog-4 {
+    background: url('../img/blog/bgaw3.jpg') center no-repeat;
     background-size: cover;
     z-index: -1;
     position: absolute;
