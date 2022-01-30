@@ -830,6 +830,34 @@ a {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
+.scrolls-2{
+  z-index: 10;
+  position: absolute;
+  top: calc(90vh - 50px);
+  left: calc(50% - 50px);
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.scrolls-3{
+  z-index: 10;
+  position: absolute;
+  top: calc(90vh - 50px);
+  left: calc(50% - 50px);
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
 
 .bg-right {
   background: #fff;
@@ -919,8 +947,17 @@ a {
   z-index: -1;
   background: #fff;
 }
-
+.main-head-2{
+  position: relative;
+  height: 75vh;
+  overflow: hidden;
+  z-index: -1;
+  background: #fff;
+}
 .main-head .container {
+  position: relative;
+}
+.main-head-2 .container{
   position: relative;
 }
 
@@ -1052,7 +1089,7 @@ h1.title {
   z-index: 3;
   position: relative;
   text-align: center;
-  left: 50%;
+  left: 55%;
   height: 30vh;
   width: 30vw;
   top: 30vh;
@@ -1064,7 +1101,7 @@ h1.title {
   z-index: 1;
   position: fixed;
   text-align: top;
-  left: 10vw;
+  left: 15vw;
   height: 70vh;
   width: 30vw;
   top: 10vh;
@@ -1309,7 +1346,40 @@ h1.title {
 }
 
 .bg-detail-blog {
-  background: url("../img/blog/detail.jpg") center no-repeat;
+  background: url("../img/blog/Greenvi\ -\ Vũ\ Thu\ Hiền.png") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+.bg-detail-blog-2 {
+  background: url("../img/blog/bgaw2.jpg") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+.bg-detail-blog-3 {
+  background: url("../img/blog/") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+.bg-detail-blog-4 {
+  background: url("../img/blog/bgaw3.png") center no-repeat;
   background-size: cover;
   z-index: -1;
   position: absolute;
@@ -1345,8 +1415,8 @@ h3.detail-title {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  margin: 50px 0;
   color: #c3c3c3;
+  margin-top: 50px;
 }
 
 .article .author p {
@@ -1808,3 +1878,15 @@ h3.lght {
   color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
+.videohome{
+  height: 500px;
+  width: 700px;
+  position: relative;
+}
+.videohome2{
+  display: block;
+  height: 500px;
+  width: 700px;
+  position: relative;
+  margin: auto;
+}
