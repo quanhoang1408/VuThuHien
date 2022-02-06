@@ -814,6 +814,34 @@ a {
     animation-timing-function: linear;
 
 }
+.scrolls-2{
+    z-index: 10;
+    position: absolute;
+    top: calc(90vh - 50px);
+    left: calc(50% - 50px);
+    -webkit-animation-name: spin;
+            animation-name: spin;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+.scrolls-3{
+    z-index: 10;
+    position: absolute;
+    top: calc(90vh - 50px);
+    left: calc(50% - 50px);
+    -webkit-animation-name: spin;
+            animation-name: spin;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
 
 
 
@@ -873,6 +901,61 @@ a {
         -webkit-text-stroke: 1px #000;
         letter-spacing: 1px;
     }
+}
+.heading-text-front-amsmed {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+
+    z-index: 4;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 900;
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+}
+.heading-text-front-hearme {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+
+    z-index: 4;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: #b19cd9;
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px #000;
+        letter-spacing: 1px;
+    }
+}
+.heading-text-front-work{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: transparent;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 1px;
 }
 
 .heading-text-back {
@@ -1443,7 +1526,7 @@ h3.detail-title {
 =====================================================*/
 
 .bg-work {
-    background: url('../img/port/1.jpg') center no-repeat;
+    background: url('../img/work/C360_20220206-170043-55.jpg') center no-repeat;
     z-index: 3;
     position: fixed;
     text-align: center;
@@ -1454,7 +1537,7 @@ h3.detail-title {
 }
 
 .bg-work-2 {
-    background: url('../img/port/3.jpg') center no-repeat;
+    background: url('../img/work/C360_20220206-170043-55.jpg') center no-repeat;
     z-index: 3;
     position: fixed;
     text-align: center;
@@ -1493,6 +1576,28 @@ h3.detail-title {
     left: 25%;
     top: 25vh;
 }
+.bg-detail-amsmed{
+    background: url("../img/work/amsmed.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    height: 50vh;
+    width: 50vw;
+    left: 25%;
+    top: 25vh;
+}
+.bg-detail-hearme {
+    background: url("../img/work/hearme2.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;    
+    height: 50vh;
+    width: 50vw;
+    left: 25%;
+    top: 25vh;
+}
 
 .about-work {
     h3 {
@@ -1509,8 +1614,8 @@ h3.detail-title {
 
     a {
 
-        font-size: 12px;
-        color: #000;
+        font-size: 30px;
+        color: darkblue;
     }
 }
 
@@ -1895,7 +2000,18 @@ h3.detail-title {
         -o-transition: all ease .3s;
     }
 }
-
+.amsmedimg1{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+}
+.amsmedimg2{
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+    margin-left: 50px;
+}
 
 
 h3.glp {
@@ -1905,4 +2021,13 @@ h3.glp {
 h3.lght {
     color: #ffffff;
 }
-
+.videohome1{
+    margin-top: 20px;
+    width: 800px;
+    position: relative;
+    left: 15%;
+}
+#about-work-2{
+    font-size: 30px;
+    color: palevioletred;
+}
