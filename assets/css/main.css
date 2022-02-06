@@ -1985,17 +1985,10 @@ h3.lght {
   position: relative;
   margin: auto;
 }
-.amsmedimg1{
+.amsmedimg{
   margin-left: 50px;
   margin-top: 30px;
-  display: fixed;
   height: 500px;
-}
-.amsmedimg2{
-  margin-top: 30px;
-  display: fixed;
-  height: 500px;
-  margin-left: 50px;
 }
 .gallery{
   margin-top: 50px;
