@@ -1988,12 +1988,12 @@ h3.lght {
 .amsmedimg1{
   margin-left: 50px;
   margin-top: 30px;
-  display: flex;
+  display: fixed;
   height: 500px;
 }
 .amsmedimg2{
   margin-top: 30px;
-  display: flex;
+  display: fixed;
   height: 500px;
   margin-left: 50px;
 }
