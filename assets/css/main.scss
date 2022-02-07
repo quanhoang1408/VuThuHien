@@ -949,13 +949,83 @@ a {
         letter-spacing: 1px;
     }
 }
+.heading-text-front-socialet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+
+    z-index: 4;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: burlywood;
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px brown;
+        letter-spacing: 1px;
+    }
+}
+.heading-text-front-dtr {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+
+    z-index: 4;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        color: navy;
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px rgb(75, 213, 231);
+        letter-spacing: 10px;
+    }
+}
+.heading-text-front-melomance {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+    z-index: 4;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: rgb(248, 122, 3);
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px black;
+        letter-spacing: 1px;
+    }
+}
 .heading-text-front-work{
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  color: transparent;
-  font-weight: 900;
-  font-size: 60px;
-  letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1px;
 }
 
 .heading-text-back {
@@ -1041,7 +1111,6 @@ h1.title {
     }
 
     h2 {
-
         text-transform: uppercase;
         color: #000;
         font-size: 40px;
@@ -1058,9 +1127,6 @@ h1.title {
 }
 
 .folio-content {
-  
-
-
     .folio-item {
         margin-top: 100px;
         position: relative;
@@ -1598,6 +1664,28 @@ h3.detail-title {
     left: 25%;
     top: 25vh;
 }
+.bg-detail-socialet {
+    background: url("../img/work/socialet4.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    height: 50vh;
+    width: 50vw;
+    left: 25%;
+    top: 25vh;
+}
+.bg-detail-melomance {
+    background: url("../img/work/melo\ 1.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    height: 60vh;
+    width: 60vw;
+    left: 20%;
+    top: 25vh;
+}
 
 .about-work {
     h3 {
@@ -2018,8 +2106,11 @@ h3.lght {
     font-size: 30px;
     color: palevioletred;
 }
-.amsmedimg{
-    margin-left: 50px;
-    margin-top: 30px;
-    height: 500px;
+#about-work-3{
+    font-size: 30px;
+    color: brown;
+}
+#about-work-4{
+  font-size: 30px;
+  color: orange;
 }
