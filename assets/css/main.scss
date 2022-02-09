@@ -1019,6 +1019,73 @@ a {
         letter-spacing: 1px;
     }
 }
+.heading-text-front-developh {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+    z-index: 4;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: rgb(240, 216, 6);
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px black;
+        letter-spacing: 1px;
+    }
+}
+.heading-text-front-interzet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+    z-index: 4;
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: rgb(128, 16, 16);
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px black;
+        letter-spacing: 1px;
+    }
+}
+.heading-text-front-interzet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    top: 50%;
+    z-index: 4;
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: rgb(206, 8, 8);
+        font-weight: 900;
+        font-size: 60px;
+        -webkit-text-stroke: 1px black;
+        letter-spacing: 1px;
+    }
+}
 .heading-text-front-work{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -1506,7 +1573,7 @@ h1.title {
 }
 
 .bg-detail-blog {
-    background: url('../img/blog/Greenvi\ -\ Vũ\ Thu\ Hiền.png') center no-repeat;
+    background: url('../img/blog/d4ibg.jpg') center no-repeat;
     background-size: cover;
     z-index: -1;
     position: absolute;
@@ -1528,7 +1595,7 @@ h1.title {
     top: 0;
 }
 .bg-detail-blog-4 {
-    background: url('../img/blog/bgaw3.jpg') center no-repeat;
+    background: url('../img/blog/podcast.png') center no-repeat;
     background-size: cover;
     z-index: -1;
     position: absolute;
@@ -1686,7 +1753,17 @@ h3.detail-title {
     left: 20%;
     top: 25vh;
 }
-
+.bg-detail-musical{
+    background: url("../img/work/musicaldetail1.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    height: 60vh;
+    width: 60vw;
+    left: 20%;
+    top: 25vh;
+}
 .about-work {
     h3 {
         color: #000;
@@ -2113,4 +2190,22 @@ h3.lght {
 #about-work-4{
   font-size: 30px;
   color: orange;
+}
+.center{
+  display: flex;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about-work-5{
+  font-size: 30px;
+  color: red;
+}
+#about-work-6{
+  font-size: 30px;
+  color: rgb(209, 209, 30);
+}
+#about-work-7{
+  font-size: 30px;
+  color: rgb(128, 16, 16);
 }
