@@ -848,19 +848,14 @@ a {
 
 
 .bg-right {
-    background: #fff;
+    background-image: url(/assets/img/work/everyone-deserve-to-be-love-because-love-has-no-gender.gif);
     z-index: 3;
-    position: fixed;
-    transform: translate(-50%, -50%) skew(20deg);
-    -webkit-transform: translate(-50%, -50%) skew(20deg);
-    -moz-transform: translate(-50%, -50%) skew(20deg);
-    -ms-transform: translate(-50%, -50%) skew(20deg);
-    -o-transform: translate(-50%, -50%) skew(20deg);
+    position: relative;
     text-align: center;
-    left: 50%;
-    height: 80vh;
-    width: 20vw;
-    top: 50vh;
+    margin: auto;
+    height: 1200px;
+    width: 1000px;
+    background-size: contain;
 }
 
 .bg-3 {
@@ -2224,7 +2219,7 @@ h3.lght {
   color: white;
 }
 .navbar-custom{
-  height: 100px;
+  height: 50px;
 }
 .cert-musical{
   margin-left: 220px;

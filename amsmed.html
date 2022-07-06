@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/plugin.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
@@ -104,7 +106,35 @@
 
     </header>
     <!-- End Header -->
-
+    <nav class="navbar fixed-top navbar-custom navbar-expand-lg navbar-dark" style="background-color:#ffffff;">
+        <a class="navbar-brand" href="index.html" style="color: black;">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: black;" href="about.html">About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: black;" href="work.html">Leadership </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="blog.html" style="color: black;" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Awards
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" style="color: black;" href="blog-detail.html">Dash for Impact</a>
+                        <a class="dropdown-item" style="color: black;" href="blog-detail-2.html">Film Making Contest</a>
+                        <a class="dropdown-item" style="color: black;" href="blog-detail-4.html">Hướng nghiệp 4.0 - CDM</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- Start Content -->
     <div id="spiral">
 
@@ -132,10 +162,11 @@
         <!-- Work Content -->
         <section class="detail-work bg-darks">
             <div class="container">
-                <img src="/assets/img/work/AMS MEDIA.png" class="resize-img" alt="">
+                
                 <img src="/assets/img/work/AB.AMS MEDIA.png" class= "resize-img" alt="">
-                <!-- <div class="row ">
-                    <div class="col-md-6 mt-30">
+                <div class="row ">
+                    <img src="/assets/img/work/AMS MEDIA.png" class="col-md-10 mt-30 resize-img" alt="">
+                    <!-- <div class="col-md-6 mt-30">
                         <div class="about-work text-center">
                             <h3>Position</h3>
                             <p>President</p>
@@ -146,8 +177,8 @@
                             <h3>Duration</h3>
                             <p>2019-2021</p>
                         </div>
-                    </div>
-                </div> -->
+                    </div> -->
+                </div>
                 <!-- <div class="row about-work mt-50">
                     <div class="col-md-3">
                         <h3>Vision</h3>
