@@ -846,7 +846,17 @@ a {
 }
 
 
-
+.bg-detail-blog-5 {
+    background: url("../img/work/everyone-deserve-to-be-love-because-love-has-no-gender.gif") center no-repeat;
+    background-size: cover;
+    z-index: -3;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+  }
 .bg-right {
     background-image: url(/assets/img/work/everyone-deserve-to-be-love-because-love-has-no-gender.gif);
     z-index: 3;
