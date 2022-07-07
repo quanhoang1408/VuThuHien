@@ -878,6 +878,15 @@ a {
   width: 1000px;
   background-size: contain;
 }
+.bg-right-2 {
+  z-index: 3;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  height: 1200px;
+  width: 1000px;
+  background-size: contain;
+}
 
 .bg-3 {
   background: url("../img/home.jpg") center no-repeat;
