@@ -1612,10 +1612,10 @@ h3.detail-title {
 }
 
 .article .quote p {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 800;
+  font-size: 23px;
   text-align: center;
-  color: #c3c3c3;
+  color: black;
   margin-top: 50px;
 }
 
@@ -2268,4 +2268,7 @@ h3.lght {
 }
 .resize-img2{
   width:860px;
+}
+.font-blog{
+  font-size: large;
 }
