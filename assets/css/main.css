@@ -879,13 +879,19 @@ a {
   background-size: contain;
 }
 .bg-right-2 {
+  background: #fff;
   z-index: 3;
-  position: relative;
+  position: fixed;
+  transform: translate(-50%, -50%) skew(20deg);
+  -webkit-transform: translate(-50%, -50%) skew(20deg);
+  -moz-transform: translate(-50%, -50%) skew(20deg);
+  -ms-transform: translate(-50%, -50%) skew(20deg);
+  -o-transform: translate(-50%, -50%) skew(20deg);
   text-align: center;
-  margin: auto;
-  height: 1200px;
-  width: 1000px;
-  background-size: contain;
+  left: 50%;
+  height: 80vh;
+  width: 20vw;
+  top: 50vh;
 }
 
 .bg-3 {
